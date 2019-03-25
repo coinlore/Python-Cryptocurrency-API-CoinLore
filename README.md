@@ -34,8 +34,6 @@ print(client.getexchange(5))
 //Get social stats (Ethereum)
 print(client.getsocial(80))
 
- print_r($coins);
-
 ```
 ## License
 MIT license
