@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='coinlore',
-    version='0.1.5',
+    version='0.1.7',
     author="CoinLore",
     keywords=['api', 'coinlore', 'cryptocurrency', 'cryptocurrency prices','bitcoin', 'ethereum', 'XRP'],
     author_email="contact@coinlore.com",

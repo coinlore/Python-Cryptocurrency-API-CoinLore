@@ -16,6 +16,9 @@ from coinlore.client import Client
 
 client = Client();
 
+//Get global market info
+print(client.getglobal())
+
 //Get Bitcoin Info (Bitcoin)
 print(client.getcoin(90))
 
