@@ -16,25 +16,25 @@ from coinlore.client import Client
 
 client = Client();
 
-//Get global market info
+#Get global market info
 print(client.getglobal())
 
-//Get Bitcoin Info (Bitcoin)
+#Get Bitcoin Info (Bitcoin)
 print(client.getcoin(90))
 
-//Get coins from 0 to 100
+#Get coins from 0 to 100
 print(client.getcoins(0, 100))
 
-//Get coin markets (Bitcoin)
+#Get coin markets (Bitcoin)
 print(client.getmarkets(90))
 
-//Get exchanges
+#Get exchanges
 print(client.getexchanges(5))
 
-//Get exchange (Binance)
+#Get exchange (Binance)
 print(client.getexchange(5))
 
-//Get social stats (Ethereum)
+#Get social stats (Ethereum)
 print(client.getsocial(80))
 
 ```
